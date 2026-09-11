@@ -21,3 +21,6 @@ pagina inicial,
 carrinho
 
 fé em deus
+
+roda data base: python -m uvicorn backend.main:app --reload
+
