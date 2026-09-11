@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techstore</title>
+    <style>
+         body { font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 20px; }
+        .vitrine { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+        .card { background: white; border-radius: 8px; padding: 15px; width: 250px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center; }
+        .card img { max-width: 100%; height: 150px; object-fit: contain; }
+        .preco { color: #2ecc71; font-weight: bold; font-size: 1.2em; }
+        .button { font-weight: bold; font-size: 1.0em; border-radius: 35px; background-color: #2ecc71; display: block; margin: 10px auto;}
+        .carrinho {width: 50px; height: 50px; ;}
+        .button-carrinho {background-color: #2ecc71; border-radius: 50%;}
+        .carrinho-position {position: fixed; right: 20px; top: 20px;}
+        .dialog {border: none; border-radius: 8px; padding: 20px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);}
+        dialog::backdrop {background-color: rgba(0, 0, 0, 0.5);}
+        #contador_carrinho {color: red; position: fixed; top: 15px; right: 80px;background-color: white;}
+        .CalcularTotal {color: #2ecc71;}
+        .fechar_carrinho {background-color: red; position: fixed; right: 45%;}
+        .fechar {background-color: blue;}
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Produtos do Sistema</h1>
+    <div class="carrinho-position">
+        <button class="button-carrinho" onclick="abrir_carrinho()"><img class="carrinho" src="images/image.png" alt="carrinho"><span id="contador_carrinho">0</span></button>
+        <dialog id="carrinho-text">
+            <h2>Carrinho</h2>
+            <p>seu carrinho</p>
+            <span class="CalcularTotal"></span>
+            <button onclick="pagamento()">Pagamento</button>
+            <div class="fechar"><button class="fechar_button" onclick="fechar_carrinho()">Close</button></div>
+        </dialog>
+    </div>
+    <div class="vitrine" id="vitrine"></div>
+    <script>
+        let carrinho = []
+        function abrir_carrinho() {
+        const total = CalcularTotal();            
+
+            const dialogCarrinho = document.getElementById("carrinho-text");
+            const elementoTotal = dialogCarrinho.querySelector('.CalcularTotal');
+            const conteudoCarrinho = dialogCarrinho.querySelector('p');
+
+            if (carrinho.length === 0) {
+                
+                conteudoCarrinho.innerHTML = "Seu carrinho está vazio.";
+                elementoTotal.innerHTML = "";
+                
+            } else {
+
+                conteudoCarrinho.innerHTML = carrinho.map(item =>
+                   `${item.nome} - R$ ${item.preco.toFixed(2)}` 
+                ).join('<br>');
+            }
+
+            elementoTotal.innerHTML =
+                `<br><strong>Total: R$ ${total.toFixed(2)}</strong>`
+
+            dialogCarrinho.showModal();
+
+
+        }
+        
+        function fechar_carrinho() {
+            const dialogCarrinho = document.getElementById("carrinho-text")
+            dialogCarrinho.close();
+        }
+
+        function adicionar_Carrinho(produto) {
+            carrinho.push(produto);
+
+            atualizarCarrinho();
+
+            alert(`${produto.nome} foi adicionado ao carrinho!`);
+        }
+
+        
+        async function carregarProdutos() {
+            try {
+                const resposta = await fetch('http://127.0.0.1:8000/produtos');
+                const produtos = await resposta.json();
+                const vitrine = document.getElementById('vitrine')
+                
+                produtos.forEach(produto => {
+                    const card = document.createElement('div');
+                    card.className = 'card';
+                    
+                    card.innerHTML = `
+                    <img src="${produto.imagem}" alt="${produto.nome}">
+                    <h3>${produto.nome}</h3>
+                    <p>${produto.descricao.substring(0, 60)}...</p>
+                    <p>Cor: ${produto.cor}</p>
+                    <p class="preco">R$ ${produto.preco.toFixed(2)}</p>
+                    <button class="button">Comprar</button>
+                    `;
+
+                    const botao =  card.querySelector(".button");
+
+                    botao.onclick = function() {
+                        adicionar_Carrinho(produto);
+                    };
+                    
+                    vitrine.appendChild(card)
+                });
+            } catch (erro) {
+                console.error("Erro ao buscar produtos:", erro)
+            }
+        }
+        carregarProdutos()
+
+        function atualizarCarrinho() {
+            const contador = document.getElementById("contador_carrinho");
+
+            contador.textContent = carrinho.length
+        }
+
+        function CalcularTotal() {
+            let total = 0;
+
+            carrinho.forEach(item => {
+                total = total + item.preco;
+            });
+
+            return total;
+        }
+
+        function pagamento() {
+            console.log("Produtos:", carrinho);
+            console.log("Total:", CalcularTotal());
+
+            alert("Pagamento simulado")
+        }
+        
+    </script>
+</body>
+</html>
