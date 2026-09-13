@@ -2,82 +2,65 @@
     "Produtos": [
     {
         "id": 1,
-        "nome": "Mouse Gamer sem Fio Attack Shark R1",
-        "descricao": "Mouse Gamer sem Fio Attack Shark R1 Ultraleve e design Ergonômico, Tri-Mode, 18.000 DPI, Sensor Óptico PAW3311, 6 Botões",
+        "nome": "Mochila de Rock",
+        "descricao": "Mochila de Rock masculina",
         "cor": "preto",
-        "preco": 129.99,
-        "imagem": "https://images1.kabum.com.br/produtos/fotos/904351/mouse-gamer-sem-fio-attack-shark-r1-ultraleve-e-design-ergonomico-tri-mode-18-000-dpi-sensor-optico-paw3311-6-botoes-preto_1772731933_gg.jpg"
+        "categoria": "mochilas",
+        "preco": 79.99,
+        "imagem": "https://img-1.kwcdn.com/product/fancy/e0e1bd82-c5ed-4430-a73e-b4ea95057719.jpg"
     },
     {
         "id": 2,
-        "nome": "Mousepad Gamer Steelseries QCK",
-        "descricao": "Mousepad Gamer Steelseries QCK+, Grande (450x400mm)",
-        "cor": "preto",
-        "preco": 149.99,
-        "imagem": "https://images9.kabum.com.br/produtos/fotos/115349/mousepad-gamer-steelseries-qck-grande-450x400mm-63003_1595877296_gg.jpg"
+        "nome": "RedBug Anos 80's ",
+        "descricao": "RedBug Anos 80's",
+        "cor": "vermelho",
+        "categoria": "camisetas",
+        "preco": 89.99,
+        "imagem": "https://cdn.awsli.com.br/2500x2500/0/622/produto/156504369/c2a140bdb2.jpg"
     },
     {
         "id": 3,
-        "nome": "Placa de Vídeo MSI GeForce RTX 5050 Shadow",
-        "descricao": "Placa de Vídeo MSI GeForce RTX 5050 Shadow 2X OC 8GB",
-        "cor": "preto",
-        "preco": 2199.00,
-        "imagem": "https://images1.kabum.com.br/produtos/fotos/1012611/placa-de-video-msi-geforce-rtx-5050-gaming-oc-nvidia-8gb-gddr7-128-bit-g5050-8gc_1775759170_gg.jpg"
+        "nome": "Corrente Masculina Pingente Crucifixo Tribal Cruz Aco Inox",
+        "descricao": "Corrente Masculina Pingente Crucifixo Tribal Cruz Aco Inox",
+        "cor": "prata",
+        "categoria": "acessorios",
+        "preco": 83.99,
+        "imagem": "https://http2.mlstatic.com/D_NQ_NP_751778-MLB54591268866_032023-O-corrente-masculina-pingente-crucifixo-tribal-cruz-aco-inox.webp"
     },
     {
         "id": 4,
-        "nome": "Computador Gamer Completo Pichau GD201",
-        "descricao": "Computador Gamer Completo Pichau GD201, Intel Core i5, Radeon RX 580 8GB, 16GB DDR3, SSD 480GB + Monitor + Kit Periféricos",
-        "cor": "preto",
-        "preco": 2231.00,
-        "imagem": "https://media.pichau.com.br/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/l/e/legion-com-ventoinhas-pc-monitor-orc-v2.jpg"
+        "nome": "Brincos Cranio Caveira Argola Gotico Punk Prateados",
+        "descricao": "Brincos Cranio Caveira Argola Gotico Punk Prateados",
+        "cor": "prata",
+        "categoria": "acessorios",
+        "preco": 41.99,
+        "imagem": "https://down-br.img.susercontent.com/file/sg-11134201-7rdwn-lzi97qd43wnbb0@resize_w450_nl.webp"
     },
     {
         "id": 5,
-        "nome": "PC Gamer Completo Pichau Zagan III",
-        "descricao": "PC Gamer Completo Pichau Zagan III, Intel i5-10400F, GeForce RTX 5050 8GB, 16GB DDR4, SSD M.2 480GB + Monitor + Kit Periféricos",
-        "cor": "preto",
-        "preco": 5122.00,
-        "imagem": "https://media.pichau.com.br/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/k/i/kit-pc-completo-hx110-gpu-m-orc-v2-monitor_2.jpg"
+        "nome": "6 Pares Brinco Masculino Argola Cruz Aco Inoxidavel",
+        "descricao": "6 Pares Brinco Masculino Argola Cruz Aco Inoxidavel",
+        "cor": "aco",
+
+        "preco": 34.97,
+        "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_726784-MLA99586940286_122025-F.webp"
     },
     {
         "id": 6,
-        "nome": "PC Gamer Completo Ryzen 7 5700x, RTX 4060, 32gb RGB Ddr4, SSD Nvme 1TB, 700w 80 Plus, Full White - Lps5jhpc-e",
-        "descricao": "PC Gamer Completo Ryzen 7 5700x, RTX 4060, 32gb RGB Ddr4, SSD Nvme 1TB, 700w 80 Plus, Full White - Lps5jhpc-e",
-        "cor": "White",
-        "preco": 9989.00,
-        "imagem": "https://images0.kabum.com.br/produtos/fotos/sync_mirakl/705110/xlarge/PC-Gamer-Completo-Ryzen-7-5700x-RTX-4060-32gb-RGB-Ddr4-SSD-Nvme-1TB-700w-80-Plus-Full-White-Lps5jhpc-e_1778262221.png"
+        "nome": "Bota Rock",
+        "descricao": "bota preta de estilo rocker decorada com tachas metálicas e emblemas de bandas como Iron Maiden e Metallica",
+        "cor": "Preta",
+        "categoria": "calçados",
+        "preco": 89.99,
+        "imagem": "https://i.pinimg.com/736x/86/0f/b2/860fb2e6b297066822ed13162663db6a.jpg"
     },
     {
         "id": 7,
-        "nome": "Pc Gamer Cpu Ryzen 7 7800x3d, M.2 1tb, 32gb 6400, Rtx 5070",
-        "descricao": "Pc Gamer Cpu Ryzen 7 7800x3d, M.2 1tb, 32gb 6400, Rtx 5070",
-        "cor": "preto",
-        "preco": 1560.00,
-        "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_696150-MLB107391418351_022026-F-pc-gamer-cpu-ryzen-7-7800x3d-m2-1tb-32gb-6400-rtx-5070.webp"
-    },
-    {
-        "id": 8,
-        "nome": "Headset Gamer Redragon Zeus Pro Sem Fio",
-        "descricao": "Headset Gamer Redragon Zeus Pro Sem Fio",
-        "cor": "preto",
-        "preco": 341.25,
-        "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_685800-MLA95634757877_102025-F.webp"
-    },
-    {
-        "id": 9,
-        "nome": "Kit Gamer Redragon Essentials 4 em 1 Teclado + Mouse + Mousepad + Headset Preto S166",
-        "descricao": "Kit Gamer Redragon Essentials 4 em 1 Teclado + Mouse + Mousepad + Headset Preto S166",
-        "cor": "preto",
-        "preco": 349.00,
-        "imagem": "https://media.pichau.com.br/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/s/1/s1667.jpg"
-    },
-    {
-        "id": 10,
-        "nome": "Notebook Lenovo B330 Core I5 8gb Ssd 256gb Win 10 Pro 15,6 Cor Preto - Bom (Recondicionado)",
-        "descricao": "Notebook Lenovo B330 Core I5 8gb Ssd 256gb Win 10 Pro 15,6 Cor Preto - Bom (Recondicionado)",
-        "cor": "preto",
-        "preco": 1551.00,
-        "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_602614-MLA86762047482_072025-F.webp"
+        "nome": "Bolsa Feminina De Ombro Rock Punk Estilo Y2k Gótica Festa",
+        "descricao": "Bolsa Feminina De Ombro Rock Punk Estilo Y2k Gótica Festa",
+        "cor": "preta",
+        "preco": 93.09,
+        "categoria": "acessorios",
+        "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_636049-MLB107328145848_032026-F-bolsa-feminina-de-ombro-rock-punk-estilo-y2k-gotica-festa.webp"
     }
 ]}
