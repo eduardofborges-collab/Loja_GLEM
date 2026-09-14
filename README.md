@@ -8,6 +8,16 @@ A **GLEM Rockwear** é uma loja virtual de roupas e acessórios inspirados na cu
 
 O projeto simula uma experiência de e-commerce, permitindo que o usuário navegue pelos produtos, filtre por categorias, pesquise itens, adicione produtos ao carrinho e envie um pedido para o Backend.
 
+## 👥 Equipe
+
+| Integrante | Função | Responsabilidades |
+|---|---|---|
+| **Eduardo Franceschetti Borges** | Tech Lead / Full Stack | Arquitetura, Frontend, Backend, API e integração |
+| **Gabrieli ...** | Frontend / UI | Interface e experiência do usuário |
+| **Maria Vitória ...** | Documentação / QA | Documentação e testes |
+| **Maria ...** | Gestão / Scrum | Organização das tarefas e acompanhamento |
+
+
 ---
 
 # 📋 Sobre o projeto
@@ -61,10 +71,10 @@ Atualmente o projeto utiliza arquivos **JSON** para armazenar os dados.
 
 ### Produtos
 
-```text
-database/
-└── produtos.json
-text```
+
+database
+produtos.json
+
 
 O arquivo contém informações como:
 
@@ -449,3 +459,153 @@ em um navegador ou utilize um servidor local, como o Live Server do VS Code.
 
 O projeto está sendo utilizado para praticar conceitos importantes de programação e desenvolvimento Web.
 
+Python
+
+Funções
+Classes
+Pydantic
+Manipulação de JSON
+Estruturas de repetição
+Listas
+Condições
+APIs
+
+FastAPI
+
+Rotas
+GET
+POST
+Query Parameters
+Request Body
+Models
+CORS
+Uvicorn
+
+JavaScript
+
+Funções
+Arrays
+Eventos
+DOM
+fetch()
+async/await
+Requisições HTTP
+Manipulação dinâmica de HTML
+local state do carrinho
+
+Frontend
+
+HTML semântico
+CSS
+Grid
+Flexbox
+Responsividade
+Modais
+Navegação
+Componentização visual
+
+🚀 Próximos passos
+
+O projeto ainda está em desenvolvimento.
+
+Algumas funcionalidades planejadas:
+
+ Sistema de usuários
+ Login e cadastro
+ Autenticação
+ JWT
+ Perfil do usuário
+ Histórico de pedidos
+ Página individual do produto
+ Sistema de estoque
+ Quantidade de produtos no carrinho
+ Persistência do carrinho
+ Checkout
+ Integração com pagamento real
+ PIX
+ Cartão de crédito
+ Banco de dados SQL
+ Painel administrativo
+ Cadastro de produtos
+ Edição de produtos
+ Exclusão de produtos
+ Gerenciamento de pedidos
+ Controle de estoque
+ Deploy do Backend
+ Deploy do Frontend
+
+ 🧱 Arquitetura atual
+
+Atualmente:
+
+Frontend
+│
+├── HTML
+├── CSS
+└── JavaScript
+        │
+        │ HTTP / Fetch
+        ▼
+Backend
+│
+└── FastAPI
+        │
+        ▼
+Database
+│
+├── produtos.json
+└── pedidos.json
+
+Futuramente a arquitetura poderá evoluir para:
+
+Frontend
+│
+└── React / Vue
+        │
+        ▼
+API
+│
+└── FastAPI
+        │
+        ├── Autenticação
+        ├── Produtos
+        ├── Carrinho
+        ├── Pedidos
+        ├── Usuários
+        └── Pagamentos
+                │
+                ▼
+            Database
+                │
+                └── PostgreSQL
+
+
+🎯 Status do projeto
+
+🟢 Em desenvolvimento
+
+Atualmente funcionando
+✅ Página inicial
+✅ Catálogo
+✅ Produtos carregados pela API
+✅ Filtro por categoria
+✅ Busca
+✅ Carrinho
+✅ Adicionar produtos
+✅ Remover produtos
+✅ Contador do carrinho
+✅ Cálculo do total
+✅ Criação de pedidos
+✅ Banco JSON
+✅ FastAPI
+✅ CORS
+✅ Layout responsivo
+✅ Navegação entre seções
+
+🎸 GLEM Rockwear
+
+Mais que roupa. Atitude.
+
+Projeto desenvolvido para estudos e prática de desenvolvimento Web.
+
+ROCK É IDENTIDADE.
