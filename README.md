@@ -13,9 +13,10 @@ O projeto simula uma experiência de e-commerce, permitindo que o usuário naveg
 | Integrante | Função | Responsabilidades |
 |---|---|---|
 | **Eduardo Franceschetti Borges** | Tech Lead / Full Stack | Arquitetura, Frontend, Backend, API e integração |
-| **Gabrieli ...** | Frontend / UI | Interface e experiência do usuário |
-| **Maria Vitória ...** | Documentação / QA | Documentação e testes |
-| **Maria ...** | Gestão / Scrum | Organização das tarefas e acompanhamento |
+| **MARIA VITÓRIA BRITO FOESCH** | Canvas e organizador de produtos (fotos e afins) lider |
+| **GABRIELI CAROLINE SCHERER** | Canvas e organizador de produtos slides sub-lider |
+| **LORENZZO SAMPAIO** | Canvas Organizador de produtos (fotos e afins) gerente |
+| **MARIA ...** |  |
 
 
 ---
