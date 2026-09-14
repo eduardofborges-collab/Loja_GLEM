@@ -51,7 +51,7 @@
         "descricao": "bota preta de estilo rocker decorada com tachas metálicas e emblemas de bandas como Iron Maiden e Metallica",
         "cor": "Preta",
         "categoria": "calçados",
-        "preco": 89.99,
+        "preco": 130.99,
         "imagem": "https://i.pinimg.com/736x/86/0f/b2/860fb2e6b297066822ed13162663db6a.jpg"
     },
     {
@@ -62,5 +62,14 @@
         "preco": 93.09,
         "categoria": "acessorios",
         "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_636049-MLB107328145848_032026-F-bolsa-feminina-de-ombro-rock-punk-estilo-y2k-gotica-festa.webp"
+    },
+    {
+        "id": 8,
+        "nome": "All Star personalizado Rock",
+        "descricao": "All Star personalizado Rock",
+        "cor": "preta",
+        "categoria": "calçados",
+        "preco": 89.99,
+        "imagem": "https://i.pinimg.com/736x/6e/19/ef/6e19efb7bdb2d0c139ed3516d0626b03.jpg"
     }
 ]}
