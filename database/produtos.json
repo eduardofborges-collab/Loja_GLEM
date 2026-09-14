@@ -6,16 +6,16 @@
         "descricao": "Mochila de Rock masculina",
         "cor": "preto",
         "categoria": "mochilas",
-        "preco": 79.99,
+        "preco": 110.90,
         "imagem": "https://img-1.kwcdn.com/product/fancy/e0e1bd82-c5ed-4430-a73e-b4ea95057719.jpg"
     },
     {
         "id": 2,
-        "nome": "RedBug Anos 80's ",
-        "descricao": "RedBug Anos 80's",
+        "nome": "Blusa RedBug Anos 80's Feminina",
+        "descricao": "RedBug Anos 80's Feminina",
         "cor": "vermelho",
         "categoria": "camisetas",
-        "preco": 89.99,
+        "preco": 84.90,
         "imagem": "https://cdn.awsli.com.br/2500x2500/0/622/produto/156504369/c2a140bdb2.jpg"
     },
     {
@@ -24,7 +24,7 @@
         "descricao": "Corrente Masculina Pingente Crucifixo Tribal Cruz Aco Inox",
         "cor": "prata",
         "categoria": "acessorios",
-        "preco": 83.99,
+        "preco": 45.50,
         "imagem": "https://http2.mlstatic.com/D_NQ_NP_751778-MLB54591268866_032023-O-corrente-masculina-pingente-crucifixo-tribal-cruz-aco-inox.webp"
     },
     {
@@ -33,7 +33,7 @@
         "descricao": "Brincos Cranio Caveira Argola Gotico Punk Prateados",
         "cor": "prata",
         "categoria": "acessorios",
-        "preco": 41.99,
+        "preco": 37.40,
         "imagem": "https://down-br.img.susercontent.com/file/sg-11134201-7rdwn-lzi97qd43wnbb0@resize_w450_nl.webp"
     },
     {
@@ -50,7 +50,7 @@
         "descricao": "bota preta de estilo rocker decorada com tachas metálicas e emblemas de bandas como Iron Maiden e Metallica",
         "cor": "Preta",
         "categoria": "calçados",
-        "preco": 130.99,
+        "preco": 310.70,
         "imagem": "https://i.pinimg.com/736x/86/0f/b2/860fb2e6b297066822ed13162663db6a.jpg"
     },
     {
@@ -58,8 +58,8 @@
         "nome": "Bolsa Feminina De Ombro Rock Punk Estilo Y2k Gótica Festa",
         "descricao": "Bolsa Feminina De Ombro Rock Punk Estilo Y2k Gótica Festa",
         "cor": "preta",
-        "preco": 93.09,
-        "categoria": "acessorios",
+        "preco": 103.60,
+        "categoria": "mochilas",
         "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_636049-MLB107328145848_032026-F-bolsa-feminina-de-ombro-rock-punk-estilo-y2k-gotica-festa.webp"
     },
     {
@@ -68,7 +68,87 @@
         "descricao": "All Star personalizado Rock",
         "cor": "preta",
         "categoria": "calçados",
-        "preco": 89.99,
+        "preco": 205.30,
         "imagem": "https://i.pinimg.com/736x/6e/19/ef/6e19efb7bdb2d0c139ed3516d0626b03.jpg"
+    },
+    {
+        "id": 9,
+        "nome": "Jaqueta de couro masculino",
+        "descricao": "Jaqueta de couro masculino",
+        "cor": "preta",
+        "categoria": "jaquetas",
+        "preco": 230.90,
+        "imagem": "https://http2.mlstatic.com/D_NQ_NP_896560-CBT98646964393_112025-O-jaqueta-de-couro-masculina-estilo-rock-jaqueta-de-.webp"
+    },
+     {
+        "id": 10,
+        "nome": "Camiseta Masculina Rock N Roll Guitarra Power",
+        "descricao": "Camiseta Masculina Rock N Roll Guitarra Power",
+        "cor": "Preta",
+        "categoria": "camisetas",
+        "preco": 78.97,
+        "imagem": "https://http2.mlstatic.com/D_NQ_NP_852067-MLB94152906510_102025-O-camiseta-masculina-rock-n-roll-guitarra-power.webp"
+    },
+    {
+        "id": 11,
+        "nome": "Moletom Caveira masculino Rock N Roll Fogo blusa Adulto",
+        "descricao": "Moletom Caveira masculino Rock N Roll Fogo blusa Adulto",
+        "cor": "preta",
+        "categoria": "jaquetas",
+        "preco": 45.50,
+        "imagem": "https://dcdn-us.mitiendanube.com/stores/001/086/486/products/4200_01d062eb-981f-4dd0-8d5f-eab52bd73f9d_1671x2327-2cdb3dee05ba96ce8816523620182970-1024-1024.webp"
+    },
+    {
+        "id": 12,
+        "nome": "Blusa RedBug Anos 80's Masculino",
+        "descricao": "Blusa RedBug Anos 80's Masculino",
+        "cor": "preta",
+        "categoria": "camisetas",
+        "preco": 84.90,
+        "imagem": "https://cdn.awsli.com.br/600x1000/0/622/produto/156504394/7b16c5d9f7.jpg"
+    
+    },
+    {
+    
+        "id": 13,
+        "nome": "Jaqueta de couro feminina",
+        "descricao": "jaqueta",
+        "cor": "preta",
+        "categoria": "jaquetas",
+        "preco": 230.90,
+        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuHAgbeGS-IdkmTyVVPgFRGGHMScZHoeEt4hRuUweWV0s9biUueM6TeFtj&s=10"
+    },
+    {  
+        "id": 14,
+        "nome": "kit de 3 blusas femininas rock",
+        "descricao": "kit de 3 blusas femininas rock",
+        "cor": "preta",
+        "categoria": "camisetas",
+        "preco": 118.90,
+        "imagem": "https://down-br.img.susercontent.com/file/br-11134207-820lm-mq6phe7pc6bl85"
+    },
+    {
+        "id": 15,
+        "nome": "cinto unisex",
+        "descricao": "cinto unisex",
+        "cor": "preta",
+        "categoria": "mochilas",
+        "preco": 52.90,
+        "imagem": "https://photos.enjoei.com.br/cinto-preto-spike-piramide-tripla-fileira-unissex-fivela-aco-inox-regulavel-couro-punk-rock-gotico-104071974/800x800/czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy8xNDY2NzA5Mi82NDEwMGFhNDgxNzdmMGY0OGQ4ZDFlOGNhYWYzODE4ZS5qcGc"
+    
+
+    },
+    {
+        "id": 16,
+        "nome": "bolsa de guitarra",
+        "descricao": "bolsa de guitarra",
+        "cor": "preta",
+        "categoria": "acessorios",
+        "preco": 220.80,
+        "imagem": "https://i.pinimg.com/736x/b4/94/19/b494198e20d906f58dbf52cfa39dd860.jpg"
     }
-]}
+
+    ]} 
+       
+
+        
